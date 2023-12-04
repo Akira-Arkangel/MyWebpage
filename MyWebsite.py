@@ -1,15 +1,8 @@
 from PIL import Image
 import requests
 import streamlit as st
-from streamlit_lottie import st_lottie
 
 st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
-
-def load_lottieurl(url):
-    r = requests.get(url)
-    if r.status_code != 200:
-        return None
-    return r.json()
 
 def local_css(file_name):
     with open(file_name) as f:
@@ -17,7 +10,6 @@ def local_css(file_name):
 
 local_css("style/style.css")
 
-lottie_coding= load_lottieurl("https://lottie.host/1a185eb1-cfd9-48cd-9403-97cf83b98167/CIlSN8ErME.json")
 img_ha_Spinda= Image.open("images/Thumbnail HA Spinda.png")
 
 with st.container():
@@ -37,14 +29,13 @@ with st.container():
         st.write(
             """
             - In Game Hours Played🕑: 400+ Hours
-            - Shiny Count🌟: 0
+            - Shiny Count🌟: N/A
             - Net worth💵: 30+ Million Pokeyen
             """)
         st.write("I started playing PokeMMO back in early 2022 when my friend recommended it to me. I've been inactive here an there as I am a still a student and now" 
                  "starting to go into a university. I'm looking forward to make more progress towards the betterment of me as a content creators, a student, and a PokeMMO player.")
     with right_column:
-        st_lottie(lottie_coding, height=300, key="gaming")
-
+        st.empty()
 
 with st.container():
     st.write("---")
