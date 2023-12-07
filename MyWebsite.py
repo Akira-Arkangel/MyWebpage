@@ -29,6 +29,10 @@ with st.container():
         st.subheader("Name: Louie Jay H. Larong")
         st.subheader("Course: BS Computer Engineering")
         st.subheader("Section: 1A")
+        st.write("""I'm Louie Jay Larong from Surigao del Norte State University(SNSU) and the one responsible in creating this website.
+                    the purpose of this web-blog is for me to share my content about a game I have been playing for over 2 years no.
+                    Currently, I do not have much to show since 2 years in this with only over 400 in game hours played won't really get me anywhere.
+                    """)
 
 with st.container():
     st.write("---")
