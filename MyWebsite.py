@@ -11,6 +11,7 @@ def local_css(file_name):
 local_css("style.css")
 
 img_ha_Spinda= Image.open("Thumbnail HA Spinda.png")
+img_louie_larong= Iage.open("Profile_picture.png")
 
 with st.container():
     st.subheader("Hi!, I am Louie Larong :wave:")
@@ -18,6 +19,14 @@ with st.container():
     st.write("I created this website to share my content about a game called PokeMMO.")
     st.write("[Learn More >](https://www.youtube.com/@akiraarkangel7286)")
 
+with st.container():
+    st.write("---")
+    st.title("My Profile")
+    st.write("""
+    Name: Louie Jay H. Larong
+    Course: BS Computer Engineering
+    Section: 1A
+    """)
 
 with st.container():
     st.write("---")
