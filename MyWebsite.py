@@ -26,12 +26,9 @@ with st.container():
         st.image(img_louie_larong)   
     with text_column:
         st.title("My Profile")
-        st.write("""
-        Name: Louie Jay H. Larong
-        Course: BS Computer Engineering
-        Section: 1A
-        """)
-        
+        st.subheader("Name: Louie Jay H. Larong")
+        st.subheader("Course: BS Computer Engineering")
+        st.subheader("Section: 1A")
 
 with st.container():
     st.write("---")
