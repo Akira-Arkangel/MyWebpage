@@ -21,12 +21,17 @@ with st.container():
 
 with st.container():
     st.write("---")
-    st.title("My Profile")
-    st.write("""
-    Name: Louie Jay H. Larong
-    Course: BS Computer Engineering
-    Section: 1A
-    """)
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+        st.image(img_louie_larong)   
+    with text_column:
+        st.title("My Profile")
+        st.write("""
+        Name: Louie Jay H. Larong
+        Course: BS Computer Engineering
+        Section: 1A
+        """)
+        
 
 with st.container():
     st.write("---")
