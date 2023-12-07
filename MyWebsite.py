@@ -11,7 +11,7 @@ def local_css(file_name):
 local_css("style.css")
 
 img_ha_Spinda= Image.open("Thumbnail HA Spinda.png")
-img_louie_larong= Iage.open("Profile_picture.png")
+img_louie_larong= m.open("Profile_picture.png")
 
 with st.container():
     st.subheader("Hi!, I am Louie Larong :wave:")
