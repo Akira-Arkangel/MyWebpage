@@ -45,7 +45,7 @@ with st.container():
             """
             - In Game Hours Played🕑: 400+ Hours
             - Shiny Count🌟: N/A
-            - Net worth💵: 30+ Million Pokeyen
+            - Net worth💵: 40+ Million Pokeyen
             """)
         st.write("I started playing PokeMMO back in early 2022 when my friend recommended it to me. I've been inactive here an there as I am a still a student and now" 
                  "starting to go into a university. I'm looking forward to make more progress towards the betterment of me as a content creators, a student, and a PokeMMO player.")
